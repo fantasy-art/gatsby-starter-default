@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Gatspy Motqnon" />
+    <SEO title="شركة متقنون للخدمات المنزلية" />
     <h1>شركة متقنون للخدمات المنزلية</h1>
 
     <p> تقدم افضل خدمات تنظيف منازل ونقل عفش بالمملكة</p>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Motqnon`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `شركة متقنوان للخدمات المنزلية`,
+    description: `أفضل شركة تقدم خدمات تنظيف منازل ونقل عفش بالمملكة العربية السعودية`,
+    author: `متقنون للخدمات المنزلية`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
