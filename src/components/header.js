@@ -15,13 +15,23 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
-class header extends React.Component {
 
-    const Example = (props) => {
-    const [isOpen, setIsOpen] = useState(false);
-  
-    const toggle = () => setIsOpen(!isOpen);
-  
+class header extends React.Component {
+    constructor(props) {
+      super(props)
+      this.toggle= this.toggle.bind(this)
+      this.state={
+        isOpen=false,
+      }
+    }
+    toggle(){
+      this.setState({
+        isOpen: !this.state.isOpen,
+      })
+    }
+    render(){
+
+    
     return (
       <div>
         <Navbar color="light" light expand="md">
@@ -60,7 +70,6 @@ class header extends React.Component {
     );
   }
 }
- 
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
@@ -70,4 +79,5 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header;
+export default Example;
