@@ -17,7 +17,7 @@ import {
 } from 'reactstrap';
 class header extends React.Component {
 
-  const Example = (props) => {
+    const Example = (props) => {
     const [isOpen, setIsOpen] = useState(false);
   
     const toggle = () => setIsOpen(!isOpen);
@@ -30,25 +30,25 @@ class header extends React.Component {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/components/">الرئيسية</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="https://github.com/reactstrap/reactstrap">من نحن</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  قائمة
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                    اختيار 1
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                    اختيار 2
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    Reset
+                    عودة
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
